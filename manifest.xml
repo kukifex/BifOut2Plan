@@ -7,7 +7,7 @@
   <DisplayName DefaultValue="BifOut2Plan" />
   <Description DefaultValue="Outlook Web Plugin" />
   <IconUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/icon.jpg" />
-  <SupportUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/support" />
+  <SupportUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/icon.jpg" />
 
   <Hosts>
     <Host Name="Mailbox" />
@@ -29,6 +29,10 @@
 
   <Permissions>ReadWriteMailbox</Permissions>
 
+  <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="ItemIs" ItemType="Message" />
+  </Rule>
+
   <WebApplicationInfo>
     <Id>f557ddc8-c6d2-474a-97e6-fe30e86f343d</Id>
     <Resource>https://graph.microsoft.com</Resource>
@@ -37,8 +41,4 @@
       <Scope>Mail.ReadWrite</Scope>
     </Scopes>
   </WebApplicationInfo>
-
-  <Rule xsi:type="RuleCollection" Mode="Or">
-    <Rule xsi:type="ItemIs" ItemType="Message" />
-  </Rule>
 </OfficeApp>
