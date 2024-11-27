@@ -1,9 +1,44 @@
-<Permissions>ReadWriteMailbox</Permissions>
-<WebApplicationInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MailApp">
   <Id>76563247-d3ba-4c6d-85cd-a5a7692981d6</Id>
-  <Resource>https://graph.microsoft.com</Resource>
-  <Scopes>
-    <Scope>Tasks.ReadWrite</Scope>
-    <Scope>Mail.ReadWrite</Scope>
-  </Scopes>
-</WebApplicationInfo>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Biff</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="BifOut2Plan" />
+  <Description DefaultValue="Outlook Web Plugin" />
+  <IconUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/icon.png" />
+  <SupportUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/support" />
+
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
+
+  <Requirements>
+    <Sets>
+      <Set Name="Mailbox" MinVersion="1.8" />
+    </Sets>
+  </Requirements>
+
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://kukifex.github.io/BifOut2Plan/taskpane.html" />
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+
+  <Permissions>ReadWriteMailbox</Permissions>
+
+  <WebApplicationInfo>
+    <Id>557ddc8-c6d2-474a-97e6-fe30e86f343d</Id>
+    <Resource>https://graph.microsoft.com</Resource>
+    <Scopes>
+      <Scope>Tasks.ReadWrite</Scope>
+      <Scope>Mail.ReadWrite</Scope>
+    </Scopes>
+  </WebApplicationInfo>
+
+  <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="ItemIs" ItemType="Message" />
+  </Rule>
+</OfficeApp>
