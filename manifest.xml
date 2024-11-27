@@ -1,0 +1,9 @@
+<Permissions>ReadWriteMailbox</Permissions>
+<WebApplicationInfo>
+  <Id>76563247-d3ba-4c6d-85cd-a5a7692981d6</Id>
+  <Resource>https://graph.microsoft.com</Resource>
+  <Scopes>
+    <Scope>Tasks.ReadWrite</Scope>
+    <Scope>Mail.ReadWrite</Scope>
+  </Scopes>
+</WebApplicationInfo>
