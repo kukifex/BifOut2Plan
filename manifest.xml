@@ -30,7 +30,7 @@
   <Permissions>ReadWriteMailbox</Permissions>
 
   <WebApplicationInfo>
-    <Id>76563247-d3ba-4c6d-85cd-a5a7692981d6</Id>
+    <Id>f557ddc8-c6d2-474a-97e6-fe30e86f343d</Id>
     <Resource>https://graph.microsoft.com</Resource>
     <Scopes>
       <Scope>Tasks.ReadWrite</Scope>
