@@ -6,7 +6,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="BifOut2Plan" />
   <Description DefaultValue="Outlook Web Plugin" />
-  <IconUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/icon.png" />
+  <IconUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/icon.jpg" />
   <SupportUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/support" />
 
   <Hosts>
@@ -30,7 +30,7 @@
   <Permissions>ReadWriteMailbox</Permissions>
 
   <WebApplicationInfo>
-    <Id>557ddc8-c6d2-474a-97e6-fe30e86f343d</Id>
+    <Id>76563247-d3ba-4c6d-85cd-a5a7692981d6</Id>
     <Resource>https://graph.microsoft.com</Resource>
     <Scopes>
       <Scope>Tasks.ReadWrite</Scope>
