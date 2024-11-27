@@ -7,7 +7,7 @@
   <DisplayName DefaultValue="BifOut2Plan" />
   <Description DefaultValue="Outlook Web Plugin" />
   <IconUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/icon.jpg" />
-  <SupportUrl DefaultValue="https://kukifex.github.io/BifOut2Plan/icon.jpg" />
+  <SupportUrl DefaultValue="https://biffar.de/" />
 
   <Hosts>
     <Host Name="Mailbox" />
